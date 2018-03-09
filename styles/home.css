@@ -135,6 +135,8 @@ a {
 .projects-section {
   color: black;
   background-color: white;
+  padding-top: 150px;
+  padding-bottom: 150px;
   margin-top: 20px;
   margin-bottom: 80px;
   -webkit-background-size: cover;
