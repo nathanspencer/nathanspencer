@@ -13,17 +13,25 @@ html {
 
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
   font-family: 'Open Sans', sans-serif;
   font-family: 'Russo One', sans-serif;
   font-weight: 700;
+  font-size: 44px;
   margin: 0 0 0px;
   letter-spacing: 5px;
-  text-transform: uppercase; }
-
+  text-transform: uppercase;
+  color: #4314ff; }
+  h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Russo One', sans-serif;
+    font-weight: 600;
+    margin: 0 0 0px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+  }
 p {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -95,9 +103,9 @@ a {
   display: table;
   width: 100%;
   height: 100%;
-  padding: 200px 0;
+  padding: 150px 0;
   text-align: center;
-  color: #4314ff;
+  color: black;
   background-color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -107,21 +115,21 @@ a {
     display: table-cell;
     vertical-align: middle; }
     .masthead .intro-body .brand-heading {
-      font-size: 50px;
-      color: black; }
-    .masthead .intro-body .intro-text {
-      font-size: 18px;
+      font-size: 70px;
       color: #4314ff; }
+    .masthead .intro-body .intro-text {
+      font-size: 35px;
+      color: black; }
   @media (min-width: 768px) {
     .masthead {
       height: 100%;
-      padding: 0; }
+      padding: 150; }
       .masthead .intro-body .brand-heading {
         font-size: 100px;
-        line-height: 85%;}
+        line-height: 100%;}
       .masthead .intro-body .intro-text {
-        color: #4314ff;
-        font-size: 22px; } }
+        font-size: 40px;
+        color: black; } }
 
 .btn-circle:focus, .btn-circle:hover {
     color: #4314ff;
@@ -129,14 +137,14 @@ a {
 
 .about-section {
   padding-top: 150px;
-  padding-bottom: 150px;
+  padding-bottom: 0px;
   margin-top: 20px;}
 
 .projects-section {
   color: black;
   background-color: white;
   padding-top: 150px;
-  padding-bottom: 150px;
+  padding-bottom: 0px;
   margin-top: 20px;
   margin-bottom: 80px;
   -webkit-background-size: cover;
@@ -184,7 +192,7 @@ ul.banner-social-buttons {
   @media (max-width: 767px) {
 ul.banner-social-buttons li {
   display: block;
-  margin-bottom: 20px;
+  margin: 20px;
   padding: 0px; }
 ul.banner-social-buttons li:last-child {
   margin-bottom: 0; } }
