@@ -103,37 +103,37 @@ a {
         #mainNav .nav-link.active:hover {
           color: #4314ff; } }
 
+.masthead {
+  display: table;
+  width: 100%;
+  height: 100%;
+  padding: 150px 0;
+  text-align: center;
+  color: white;
+  background-color: #4314ff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  .masthead .intro-body {
+    display: table-cell;
+    vertical-align: middle; }
+    .masthead .intro-body .brand-heading {
+      font-size: 60px;
+      color: #ffffff; }
+    .masthead .intro-body .intro-text {
+      font-size: 35px;
+      color: white; }
+  @media (min-width: 768px) {
     .masthead {
-      display: table;
-      width: 100%;
       height: 100%;
-      padding: 150px 0;
-      text-align: center;
-      color: white;
-      background-color: #4314ff;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover; }
-      .masthead .intro-body {
-        display: table-cell;
-        vertical-align: middle; }
-        .masthead .intro-body .brand-heading {
-          font-size: 60px;
-          color: #ffffff; }
-        .masthead .intro-body .intro-text {
-          font-size: 35px;
-          color: white; }
-      @media (min-width: 768px) {
-        .masthead {
-          height: 100%;
-          padding: 0; }
-          .masthead .intro-body .brand-heading {
-            font-size: 100px;
-            line-height: 100%;}
-          .masthead .intro-body .intro-text {
-            font-size: 40px;
-            color: white; } }
+      padding: 0; }
+      .masthead .intro-body .brand-heading {
+        font-size: 100px;
+        line-height: 100%;}
+      .masthead .intro-body .intro-text {
+        font-size: 40px;
+        color: white; } }
 
 
 .btn-circle:focus, .btn-circle:hover {
@@ -158,11 +158,11 @@ a {
   -o-background-size: cover;
   background-size: cover; }
 
-  .social-section {
-    padding-top: 100px;
-    padding-bottom: 75px;
-    margin-top: 20px;
-    background-color: black;}
+.social-section {
+  padding-top: 100px;
+  padding-bottom: 75px;
+  margin-top: 20px;
+  background-color: black;}
 
 .btn {
   font-family: 'Open Sans', sans-serif;
