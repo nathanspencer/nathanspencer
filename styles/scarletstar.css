@@ -9,7 +9,6 @@ html {
   height: 100%; }
 
 h1,
-h2,
 h4,
 h5,
 h6 {
@@ -21,6 +20,28 @@ h6 {
   letter-spacing: 5px;
   text-transform: uppercase;
   color: #ffffff; }
+  h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Russo One', sans-serif;
+    font-weight: 600;
+    margin: 0 0 0px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 90px;
+    color: #ffffff; }
+    @media (min-width: 768px) {
+      h2 {
+        height: 100%;
+        padding: 0;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+          line-height: 100%;
+          font-size: 200px;
+          color: #ffffff; } }
   h3 {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Russo One', sans-serif;
@@ -62,7 +83,7 @@ a {
     display: table-cell;
     vertical-align: middle; }
     .masthead .intro-body .brand-heading {
-      font-size: 70px;
+      font-size: 60px;
       color: #ffffff; }
     .masthead .intro-body .intro-text {
       font-size: 35px;
@@ -87,26 +108,24 @@ a {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
-  .masthead .intro-body {
-    display: table-cell;
-    vertical-align: middle; }
-    .masthead .intro-body .brand-heading {
-      font-size: 90px;
-      color: #ffffff; }
-    .masthead .intro-body .intro-text {
-      font-size: 45px;
-      color: #ffffff; }
-  @media (min-width: 768px) {
-    .masthead {
-      height: 100%;
-      padding: 0; }
-      .masthead .intro-body .brand-heading {
-        font-size: 100px;
-        line-height: 100%;}
-      .masthead .intro-body .intro-text {
-        font-size: 40px;
-        color: #ffffff; } }
+  background-size: cover;
+  -moz-animation: cssAnimation 0s ease-in 1s forwards;
+  -webkit-animation: cssAnimation 0s ease-in 1s forwards;
+  -o-animation: cssAnimation 0s ease-in 1s forwards;
+   animation: cssAnimation 0s ease-in 1s forwards;
+  -webkit-animation-fill-mode: forwards;
+   animation-fill-mode: forwards;}
+@keyframes cssAnimation {
+  to {
+    width: 0;
+    height: 0;
+    overflow: hidden;}}
+@-webkit-keyframes cssAnimation {
+  to {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+  } }
 
 img::selection {
     background: transparent;
