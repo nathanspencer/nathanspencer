@@ -124,9 +124,37 @@ a {
   to {
     width: 0;
     height: 0;
-    visibility: hidden;
-  } }
+    visibility: hidden; } }
 
+.container .glitch-text {
+      align-content: center;
+}
+
+.glitch-text {
+    overflow: hidden;
+  	letter-spacing: 2px;
+    margin: 0 auto;
+ 	  animation: text 2s 1s steps(10, end), blink .75s step-end infinite;
+    white-space: nowrap;
+    font-size: 30px;
+    font-weight: 700;
+    border-right: 4px solid #66ff99;}
+@keyframes text {
+    from {
+        width: 0%
+    }
+    to {
+        width: 100%
+    }
+}
+@keyframes blink {
+    from, to {
+        border-color: transparent
+    }
+    50% {
+        border-color: #66ff99;
+    }
+}
 img::selection {
     background: transparent;
     outline: none; }
